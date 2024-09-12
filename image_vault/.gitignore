@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+__pycache__/
+
+# Environment files
+.venv/
+
+# Django-related
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# IDE-specific (e.g., PyCharm, VSCode)
+.vscode/
+
+# Python packages
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+.cache
+
+# Ignore build-related files
+build/
+dist/
